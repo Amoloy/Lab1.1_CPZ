@@ -33,4 +33,8 @@ public abstract class Human implements Ihuman{
     public int getAge() {
         return Age;
     }
+
+    public String getHumanInfo() {
+        return ("ФІО: " + Name + " " + Surname + " Sex: " + Sex + " Age: " + Age);
+    }
 }
