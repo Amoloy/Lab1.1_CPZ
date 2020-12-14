@@ -7,10 +7,13 @@ public class Program {
             Bank_Employee employee3 = new Bank_Employee("Zhack", "Fresko", "Male", 101,  cashier);
             Bank_Employee employee2 = new Bank_Employee("Petro", "Dyshlevyy", "Male", 40, director);
             Bank_Employee employee1 = new Bank_Employee("Stepa", "Neponyatnych", "Male", 21, cashier);
+            Bank_Employee employee4 = new Bank_Employee("Alex", "Nevsky", "Male", 45, director);
+
 
             System.out.println(employee1.getEmployeeInfo());
             System.out.println(employee2.getEmployeeInfo());
             System.out.println(employee3.getEmployeeInfo());
+            System.out.println(employee4.getEmployeeInfo());
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
