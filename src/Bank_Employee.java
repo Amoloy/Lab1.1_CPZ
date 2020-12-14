@@ -9,6 +9,7 @@ public class Bank_Employee extends Human {
     public String Show_Post_Info(){
         return post.Show_Info();
     }
+
     public String getEmployeeInfo(){
         return(getHumanInfo() + " Post: " + post.Show_Info());
     }
